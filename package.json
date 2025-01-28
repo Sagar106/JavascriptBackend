@@ -2,7 +2,7 @@
   "name": "js-backend",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",	
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
@@ -12,5 +12,9 @@
   ],
   "author": "Sagar Upadhyay",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  }
 }
